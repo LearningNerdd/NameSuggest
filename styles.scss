@@ -1,0 +1,48 @@
+.searchContainer {
+  .searchedData {
+    min-height: 36px;
+    border-bottom: 2px solid black;
+    line-height: 1;
+    font-size: 1em;
+  }
+	.inputData {
+    display: inline-block;
+    width: 33%;
+    min-height: 36px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border: 0;
+    outline: none;
+    font-size: 0.9rem;
+  }
+  ul {
+    border-radius: 1%;
+    width: 40%;
+    height: 20%;
+    background-color: darkgray;
+    li {
+      cursor: pointer;
+    }
+  }
+  .chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+  }
+  .closebtn {
+    padding-left: 10px;
+    color: #888;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .closebtn:hover {
+      color: #000;
+  }
+}
